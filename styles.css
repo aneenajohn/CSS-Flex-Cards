@@ -3,7 +3,7 @@
     display:flex;
     /* height:600px;
     align-items:center; */
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 /* align-items is used to align along the cross axis */
 
@@ -26,3 +26,22 @@
 /* .card +.bottom{
     align-self: flex-end;
 } */
+
+/* ex04 from position: remove button on the card */
+/* Use .row without flex wrap */
+/* .row{
+    display:flex;
+} */
+.card .thumbnail{
+    position:relative;
+}
+.card .remove{
+    /* border-radius:50%; */
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+.card .thumbnail > img {
+    width:"100%";
+}

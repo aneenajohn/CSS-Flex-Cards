@@ -1,0 +1,28 @@
+
+.row{
+    display:flex;
+    /* height:600px;
+    align-items:center; */
+    flex-wrap: wrap;
+}
+/* align-items is used to align along the cross axis */
+
+.card{
+    padding :1rem;
+    /* margin:1rem; */
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    max-width:200px;
+}
+
+/* when u have a paragragh inside a card , para should grow to 1 */
+.card > p{
+    flex-grow: 1;
+}
+
+/* the third child needs to go end of flex. */
+/* .card +.bottom{
+    align-self: flex-end;
+} */

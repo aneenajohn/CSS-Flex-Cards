@@ -14,7 +14,7 @@
     display:flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    max-width:200px;
+    max-width:150px;
 }
 
 /* when u have a paragragh inside a card , para should grow to 1 */
@@ -27,11 +27,7 @@
     align-self: flex-end;
 } */
 
-/* ex04 from position: remove button on the card */
-/* Use .row without flex wrap */
-/* .row{
-    display:flex;
-} */
+/* ex04 from position: Add remove button on the card */
 .card .thumbnail{
     position:relative;
 }
@@ -42,6 +38,14 @@
     right:0px;
 }
 
+/* this is not reqd when you chg max-width to 150px; */
 .card .thumbnail > img {
     width:"100%";
+}
+
+
+.overlay{
+    position:absolute;
+    bottom:4rem;
+    padding:1rem;
 }

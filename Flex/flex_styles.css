@@ -49,3 +49,9 @@
     bottom:4rem;
     padding:1rem;
 }
+
+/* When the image overflows the parent */
+.image-responsive{
+    width:100%;
+    height:auto;
+}
